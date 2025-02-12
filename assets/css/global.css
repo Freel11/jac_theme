@@ -1,0 +1,43 @@
+:root {
+  --jac-primary: #0085cf;
+  --jac-secondary: #fb4f14;
+  --jac-font: #002032;
+  --header-font-family: "Oswald", serif;
+  --body-font-family: "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--body-font-family);
+  font-optical-sizing: auto;
+  color: var(--jac-font);
+
+  min-height: 200vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font-family);
+  font-optical-sizing: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.jac-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}

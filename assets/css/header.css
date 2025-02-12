@@ -1,0 +1,89 @@
+.jac-nav-container {
+  position: sticky;
+  top: 0;
+  background-color: var(--jac-primary);
+  padding-block: 0.5rem;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.jac-nav-container > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jac-nav-container > div > div {
+  width: 100%;
+}
+
+.jac-logo-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.jac-logo-container a {
+  display: flex;
+  width: 100px;
+}
+
+.jac-logo-container a img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.jac-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jac-menu-container .menu-main-header-container ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.jac-menu-container .menu-main-header-container ul li a {
+  color: #fff;
+  font-family: var(--header-font-family);
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.jac-menu-container .menu-main-header-container ul li:hover a {
+  color: var(--jac-secondary);
+}
+
+.jac-socials-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jac-socials-container ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.jac-socials-container ul li a {
+  color: #fff;
+  font-family: var(--header-font-family);
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.jac-socials-container ul li:hover a {
+  color: var(--jac-secondary);
+}
+
+.jac-socials-container ul li a svg {
+  width: 2rem;
+  height: auto;
+  fill: #fff;
+  transition: 0.3s;
+}
+
+.jac-socials-container ul li:hover a svg {
+  fill: var(--jac-secondary);
+}
