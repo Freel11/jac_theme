@@ -1,0 +1,39 @@
+section.jac-hero-section {
+  background-image: url("/jac/wp-content/uploads/2025/02/yellow-and-black-handy-tools-pilers-and-screwdriv-2023-11-27-05-12-12-utc-scaled.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-block: 5rem;
+}
+
+section.jac-hero-section h2,
+section.jac-hero-section .jac-contact-form-container {
+  width: 100%;
+}
+
+.jac-contact-form-container {
+  background-color: white;
+  padding: 3rem 2rem 1rem;
+  /* border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 0; */
+  box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.jac-contact-form-container label {
+  font-family: var(--header-font-family);
+  font-size: 1.25rem !important;
+}
+
+.jac-contact-form-container .frm_description {
+  font-family: var(--body-font-family);
+  font-size: 1rem !important;
+}
+
+.jac-contact-form-container input,
+.jac-contact-form-container textarea {
+  font-family: var(--body-font-family);
+  font-size: 1rem !important;
+  border-radius: 0 !important;
+}

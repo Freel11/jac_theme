@@ -28,6 +28,7 @@
             </div>
             <div class="jac-menu-container">
                 <?php wp_nav_menu(array('theme_location' => 'desktop-menu')) ?>
+                <a href="#0" class="jac-button tertiary-button">Contact Us Now!</a>
             </div>
             <div class="jac-socials-container">
                 <ul>

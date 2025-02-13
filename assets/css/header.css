@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+.jac-menu-container .menu-main-header-container {
+  margin-right: 1.5rem;
+}
+
 .jac-menu-container .menu-main-header-container ul {
   display: flex;
   list-style-type: none;
@@ -51,7 +55,7 @@
 }
 
 .jac-menu-container .menu-main-header-container ul li:hover a {
-  color: var(--jac-secondary);
+  color: var(--jac-tertiary);
 }
 
 .jac-socials-container {
@@ -74,7 +78,7 @@
 }
 
 .jac-socials-container ul li:hover a {
-  color: var(--jac-secondary);
+  color: var(--jac-tertiary);
 }
 
 .jac-socials-container ul li a svg {
@@ -85,5 +89,5 @@
 }
 
 .jac-socials-container ul li:hover a svg {
-  fill: var(--jac-secondary);
+  fill: var(--jac-tertiary);
 }

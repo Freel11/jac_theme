@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 <main>
-    <div class="jac-container">
-        <h1>hello there</h1>
-    </div>
+    <?php the_content(); ?>
 </main>
 <?php get_footer(); ?>

@@ -1,9 +1,11 @@
 :root {
   --jac-primary: #0085cf;
   --jac-secondary: #fb4f14;
+  --jac-tertiary: #fce914;
   --jac-font: #002032;
   --header-font-family: "Oswald", serif;
   --body-font-family: "Open Sans", sans-serif;
+  --button-border-radius: 10px;
 }
 
 *,
@@ -40,4 +42,38 @@ a {
 .jac-container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.jac-button {
+  display: inline-block !important;
+  font-family: var(--header-font-family) !important;
+  font-size: 1.25rem !important;
+  padding: 0.5rem 1rem !important;
+  background-color: transparent !important;
+  border: 3px solid !important;
+  border-top-left-radius: var(--button-border-radius) !important;
+  border-top-right-radius: var(--button-border-radius) !important;
+  border-bottom-right-radius: var(--button-border-radius) !important;
+  border-bottom-left-radius: 0 !important;
+  transition: 0.3s !important;
+}
+
+.jac-button.secondary-button {
+  color: var(--jac-secondary) !important;
+  border-color: var(--jac-secondary) !important;
+}
+
+.jac-button.secondary-button:hover {
+  background-color: var(--jac-secondary) !important;
+  color: white !important;
+}
+
+.jac-button.tertiary-button {
+  color: var(--jac-tertiary) !important;
+  border-color: var(--jac-tertiary) !important;
+}
+
+.jac-button.tertiary-button:hover {
+  background-color: var(--jac-tertiary) !important;
+  color: var(--jac-font) !important;
 }
